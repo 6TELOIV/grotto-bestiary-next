@@ -54,24 +54,26 @@ export default function Home() {
               <div className="absolute inset-0 noise-large" />
               <div className="absolute inset-1 border-4 border-amber-400 drop-shadow-amber-900 drop-shadow" />
               <div className="absolute inset-0 p-8 flex flex-col justify-between">
-                <div>
-                  <p className="font-byline text-xl mb-1 text-amber-400 drop-shadow-amber-900 drop-shadow">
+                <header>
+                  <p className="font-byline mb-1 text-amber-400 drop-shadow-amber-900 drop-shadow">
                     Violet&rsquo;s
                   </p>
                   <h1 className="font-headline text-4xl text-amber-400 drop-shadow-amber-900 drop-shadow">
-                    Grotto Bestiary
+                    Grotto
+                    <br />
+                    Bestiary
                   </h1>
-                </div>
+                </header>
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 size-10 drop-shadow-amber-900 drop-shadow">
                   <div className="absolute outline-4 outline-amber-950 outline-offset-[calc(var(--spacing)*16)] -translate-y-1/2 bg-radial-[at_25%_25%] from-green-500 via-25% to-green-600 via-green-800 rounded-full size-10 border-green-700 border-2" />
                   <div className="absolute pt-16 origin-top w-10">
                     <div className="bg-radial-[at_25%_25%] outline-4 outline-amber-950 outline-offset-[calc(var(--spacing)*5)] from-eternity-100 via-25% to-eternity-200 via-eternity-400 rounded-full size-10 border-eternity-300 border-2" />
                   </div>
-                  <div className="absolute pt-16 origin-top w-10 -rotate-[120deg]">
-                    <div className="bg-radial-[at_25%_25%] outline-4 outline-amber-950 outline-offset-[calc(var(--spacing)*5)] from-blue-500 via-25% to-blue-600 via-blue-800 rounded-full size-10 rotate-[120deg] border-blue-700 border-2" />
-                  </div>
                   <div className="absolute pt-16 origin-top w-10 rotate-[120deg]">
-                    <div className="bg-radial-[at_25%_25%] outline-4 outline-amber-950 outline-offset-[calc(var(--spacing)*5)] from-red-400 via-25% to-red-500 via-red-700 rounded-full size-10 -rotate-[120deg] border-red-600 border-2" />
+                    <div className="bg-radial-[at_25%_25%] outline-4 outline-amber-950 outline-offset-[calc(var(--spacing)*5)] from-blue-500 via-25% to-blue-600 via-blue-800 rounded-full size-10 -rotate-[120deg] border-blue-700 border-2" />
+                  </div>
+                  <div className="absolute pt-16 origin-top w-10 -rotate-[120deg]">
+                    <div className="bg-radial-[at_25%_25%] outline-4 outline-amber-950 outline-offset-[calc(var(--spacing)*5)] from-red-400 via-25% to-red-500 via-red-700 rounded-full size-10 rotate-[120deg] border-red-600 border-2" />
                   </div>
                 </div>
                 <div>
@@ -79,8 +81,8 @@ export default function Home() {
                     Vol. 1
                   </p>
                   <p className="font-byline mb-1 text-amber-400 drop-shadow-amber-900 drop-shadow">
-                    Documenting the grottos, beasts, champions, and wishes of
-                    the world
+                    Documenting the Grottos, Beasts, Champions, and Wishes of
+                    the world.
                   </p>
                 </div>
               </div>
