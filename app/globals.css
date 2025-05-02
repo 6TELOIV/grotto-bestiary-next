@@ -13,15 +13,6 @@
   --font-byline: var(--font-amethysta);
 
   --aspect-book: 2 / 3;
-  --animate-book: book 6s ease-in-out infinite alternate;
-  @keyframes book {
-    0% {
-      transform: rotateY(30deg) rotateX(30deg);
-    }
-    100% {
-      transform: rotateY(-30deg) rotateX(-30deg);
-    }
-  }
 
   --color-eternity-50: #f6f3ef;
   --color-eternity-100: #eae4dd;
